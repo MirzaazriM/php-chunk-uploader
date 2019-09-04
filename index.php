@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
           chunk_size: '1000kb',
           max_retries: 2,
           filters: {
-        max_file_size: '100mb',
+            max_file_size: '100mb',
             mime_types: [{title: "SCOs", extensions: "zip"}]
           },
           init: {
@@ -29,6 +29,9 @@ window.addEventListener("load", function () {
             plupload.each(files, function (file) {
                 document.getElementById('filelist').innerHTML += '<div id="' + file.id + '">' + file.name + ' (' + plupload.formatSize(file.size) + ') <b></b></div>';
             });
+
+
+
             uploader.start();
         },
         UploadProgress: function (up, file) {
@@ -37,7 +40,11 @@ window.addEventListener("load", function () {
         Error: function (up, err) {
             console.log(err);
         }
-    }
+    },
+        multipart_params : {
+            "name1" : "value1",
+            "name2" : "value2"
+        }
         });
         uploader.init();
       });

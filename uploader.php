@@ -2,6 +2,8 @@
 
 require 'vendor/autoload.php';
 
+print_r($_POST);
+
 // RESPONSE FUNCTION
 function verbose($ok=1,$info=""){
     // THROW A 400 ERROR ON FAILURE
