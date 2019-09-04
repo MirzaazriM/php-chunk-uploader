@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2efdf76c16c30b71fdb3f7ee0ba6970a",
+    "packages": [
+        {
+            "name": "moxiecode/plupload",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moxiecode/plupload.git",
+                "reference": "03f69116d55c9bde5a16292c0c84e63fb3d779cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moxiecode/plupload/zipball/03f69116d55c9bde5a16292c0c84e63fb3d779cc",
+                "reference": "03f69116d55c9bde5a16292c0c84e63fb3d779cc",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(AGPLv3 or OEM)"
+            ],
+            "authors": [
+                {
+                    "name": "Davit Barbakadze",
+                    "email": "david@moxiecode.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Plupload is a JavaScript API for dealing with file uploads it supports features like multiple file selection, file type filtering, request chunking, client side image scaling and it uses different runtimes to achieve this such as HTML 5, Silverlight and Flash.",
+            "homepage": "http://plupload.com",
+            "keywords": [
+                "file upload",
+                "legacy browser support",
+                "multi-runtime",
+                "plupload"
+            ],
+            "time": "2017-11-03T11:47:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "moxiecode/plupload": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

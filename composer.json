@@ -1,0 +1,16 @@
+{
+    "name": "admin/php-chunk-uploader",
+    "description": "Uploading big files in chunks",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Mirza Oglecevac",
+            "email": "oglecevacmirza@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "moxiecode/plupload": "dev-master"
+    }
+}
